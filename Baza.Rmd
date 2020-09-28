@@ -1,0 +1,41 @@
+---
+title: "BAZA"
+author: "Max Honcharuk"
+date: "28 09 2020"
+output: html_document
+---
+```{r}
+cel_to_fahr <- function(c){
+  F <- c * (9/5) + 32
+  return(paste("The entered Cel temperature is", F, "degrees Fahr"))
+}
+```
+
+## Перша візуалізація 
+```{r echo= FALSE}
+plot(mtcars$cyl)
+```
+
+Мабуть непогано для початку 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
